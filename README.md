@@ -35,19 +35,24 @@ Click here to check [Go](http://localhost:8000/home)
 
 ###  DB Connections
 
-Hadwa's grps:
+Hadwa's groups:
  ```
- mongodb+srv://Hadwa:hadwa1996@cluster0.hpstsct.mongodb.net/?retryWrites=true&w=majority
+ mongodb+srv://Hadwa:Hadwa@cluster0.hpstsct.mongodb.net/
  ```
 
-Noha's grps:
+Noha's groups:
  ``` 
- mongodb+srv://database:1234@cluster0.insh6i0.mongodb.net/?retryWrites=true&w=majority
+ mongodb+srv://database:1234@cluster0.insh6i0.mongodb.net/
  ```
 
-Nada's grps:
+Nada's groups:
  ```
  mongodb+srv://atlasDB:atlasDB@cluster0.vt5cm.mongodb.net/test
+```
+
+Fatima's groups:
+ ```
+mongodb+srv://Fatma:FatmaDB@cluster0.wxrq0bc.mongodb.net/
 ```
 
 ### **DO NOT COMMIT TO THIS REPO**
