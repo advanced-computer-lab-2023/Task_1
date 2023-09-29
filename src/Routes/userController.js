@@ -11,4 +11,14 @@ const getUsers = async (req, res) => {
    //retrieve all users from the database
   }
 
-module.exports = {createUser, getUsers};
+
+const updateUser = async (req, res) => {
+   //update a user in the database
+  }
+
+const deleteUser = async (req, res) => {
+   //delete a user from the database
+  }
+
+
+module.exports = {createUser, getUsers, updateUser, deleteUser};

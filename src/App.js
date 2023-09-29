@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false);
 require("dotenv").config();
-const {createUser,getUsers} = require("./Routes/userController");
+const {createUser,getUsers, updateUser, deleteUser} = require("./Routes/userController");
 const MongoURI = process.env.MONGO_URI ;
 
 
@@ -37,7 +37,8 @@ app.get("/home", (req, res) => {
 app.use(express.json())
 app.post("/addUser",createUser);
 app.get("/users", getUsers);
-
+app.put("/updateUser", updateUser);
+app.delete("/deleteUser", deleteUser);
 
 
 /*
